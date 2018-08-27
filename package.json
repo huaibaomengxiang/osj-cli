@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "bin": "index.js",
+  "bin": {
+    "osj": "bin/index.js"
+  },
   "directories": {
     "lib": "lib"
   },
@@ -13,6 +15,10 @@
   "author": "shanjia",
   "license": "ISC",
   "dependencies": {
-    "commander": "^2.17.1"
+    "chalk": "^2.4.1",
+    "commander": "^2.17.1",
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^6.2.0",
+    "ora": "^3.0.0"
   }
 }
